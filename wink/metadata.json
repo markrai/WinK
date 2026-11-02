@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "ammarwdc@gmail.com",
+                "Name": "Ammar Rai"
+            }
+        ],
+        "Description": "Windows-style snapping for KDE Plasma",
+        "Icon": "preferences-system-windows-move",
+        "Id": "wink",
+        "License": "MIT",
+        "Name": "WinK",
+        "Version": "1.0.0",
+        "Website": "https://github.com/markrai/win11-snap"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "X-KDE-ConfigModule": "kwin/effects/configs/kcm_kwin4_genericscripted"
+}

@@ -1,0 +1,4 @@
+*.kwinscript
+agent-tools/
+.DS_Store
+*.zip
