@@ -13,7 +13,7 @@
         "License": "MIT",
         "Name": "WinK",
         "Version": "1.0.0",
-        "Website": "https://github.com/markrai/win11-snap"
+        "Website": "https://github.com/markrai/WinK"
     },
     "X-Plasma-API": "javascript",
     "X-Plasma-MainScript": "code/main.js",

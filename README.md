@@ -20,8 +20,8 @@ Works on Plasma 6 / KWin 6 (including Fedora Plasma 6.8.x).
 ### From this repository
 
 ```bash
-git clone https://github.com/markrai/win11-snap.git
-cd win11-snap
+git clone https://github.com/markrai/WinK.git
+cd WinK
 make install
 ```
 
@@ -94,13 +94,16 @@ journalctl -f QT_CATEGORY=js QT_CATEGORY=kwin_scripting
 ## Layout
 
 ```
-wink/                       # KWin script package
-  metadata.json
-  contents/code/main.js
-scripts/install.sh          # install + Plasma config
-scripts/apply-plasma-config.sh
-scripts/uninstall.sh
-install-wink.sh             # standalone (no clone needed)
+WinK/                       # this repository
+  wink/                     # KWin script package (plugin Id: wink)
+    metadata.json
+    contents/code/main.js
+  scripts/install.sh
+  scripts/apply-plasma-config.sh
+  scripts/uninstall.sh
+  scripts/build-standalone.py
+  tests/
+  install-wink.sh           # standalone (no clone needed)
 ```
 
 ## License

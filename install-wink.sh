@@ -34,7 +34,7 @@ cat > "${PKG}/metadata.json" << 'EOF_metadata.json_WINK'
         "License": "MIT",
         "Name": "WinK",
         "Version": "1.0.0",
-        "Website": "https://github.com/markrai/win11-snap"
+        "Website": "https://github.com/markrai/WinK"
     },
     "X-Plasma-API": "javascript",
     "X-Plasma-MainScript": "code/main.js",
@@ -68,7 +68,7 @@ cat > "${PKG}/contents/code/main.js" << 'EOF_contents_code_main.js_WINK'
  * pixels. Geometry is applied directly so custom Plasma/KZones tile layouts
  * cannot hijack slotWindowQuickTile*.
  *
- * https://github.com/markrai/win11-snap
+ * https://github.com/markrai/WinK
  ******************************************************************************/
 
 var TOLERANCE = 32;

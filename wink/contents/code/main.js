@@ -23,7 +23,7 @@
  * pixels. Geometry is applied directly so custom Plasma/KZones tile layouts
  * cannot hijack slotWindowQuickTile*.
  *
- * https://github.com/markrai/win11-snap
+ * https://github.com/markrai/WinK
  ******************************************************************************/
 
 var TOLERANCE = 32;
